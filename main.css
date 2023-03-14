@@ -1,0 +1,25 @@
+.titulo {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/chapeu.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 67%;
+}
+
+.casas {
+    padding-top: 16px;
+}
+
+    @media screen and (max-width: 640px) {
+        .titulo {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 641px) and (max-width:1023px) {
+        .titulo {
+            background-position: 75%;
+        }
+    }
